@@ -1,0 +1,54 @@
+body{
+	background-color: rgb(255, 224, 166);
+	display: grid;
+	grid-template-columns: repeat(3, minmax(391px, 1000px));
+	/* выравнивание сетки по ширине */
+	justify-content: center;
+	/* выравнивание ячеек по вертикали */
+	align-items: flex-start;
+}
+.N{
+	background-color: #fff;
+	margin: 20px;
+	text-align: center;
+	border: 1px solid rgb(148, 97, 3);
+}
+h3, p{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+img{
+	margin-top: 10px;
+	width: 350px;
+	background-color: rgb(255, 180, 95);
+}
+
+.new1 > img{
+	height: 150px;
+}
+.new2 > img{
+	height: 100px;
+}
+.new3 > img{
+	height: 100px;
+}
+.new4 > img{
+	height: 220px;
+}
+.new5 > img{
+	height: 230px;
+}
+.new6 > img{
+	height: 350px;
+}
+.new7 > img{
+	height: 100px;
+}
+.new8 > img{
+	height: 150px;
+}
+.new9 > img{
+	height: 150px;
+}
+
